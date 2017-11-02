@@ -1,3 +1,4 @@
+
 .columns{
     text-align: center;
     padding-top: 50px;
@@ -28,6 +29,22 @@
 }
 
 .navbar{
-    padding-left: 260px;
+    padding-left: 530px;
+    opacity: .5;
 }
 
+#logo{
+    opacity: 1;
+}
+
+body, html{
+    height: 100%;
+}
+
+#bg{
+    background: url("deadboybg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
