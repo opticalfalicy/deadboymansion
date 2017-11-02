@@ -1,0 +1,33 @@
+.columns{
+    text-align: center;
+    padding-top: 50px;
+    
+
+}
+
+#bc{
+    background-image: url("deadfoam2.png");
+    padding: 25px 15px;
+    margin-right: 50px;
+}
+
+#sc{
+    background-image: url("http://www.cafeaulait.org/books/jnp3/corrections/13-1.gif");
+    padding-right: 30px;
+    padding-bottom: 40px;
+    margin: 0px 50px;
+}
+
+#yt{
+    background: url("deadecto.gif");
+    background-size: 950px 390px;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.navbar{
+    padding-left: 260px;
+}
+

@@ -1,0 +1,35 @@
+#forest{
+    background-image: url(IMG_0901.JPG);
+}
+
+.title{
+    position: relative;
+    text-align: center;
+    top: 10px;
+    font-size: 90px;
+    color: white;
+    opacity: 0.6;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.bc{
+    
+    position: absolute;
+    left: 1370px;
+    opacity: .75;
+}
+
+.yt{
+    width: 300px;
+    position: relative;
+    opacity: .75;
+    top: 15px;
+    right: 10px;
+    margin: 0px 0px 0px 0px;
+}
+
