@@ -34,19 +34,19 @@
     font-size: 30px;
     text-decoration-color: #00802b;
     font-weight: 600%;
-    padding-left: 1020px;
+    padding-left: 915px;
     opacity: 1;
 }
 
 .nav-link{
     color: #00802b;
     text-decoration-color: #00802b;
-    border-color: #00802b;
+    border-color: #0246185d;
     border-style: solid;
 }
 
 #contact{
-    color: #00802b;
+    color: #0246185d;
 }
 
 #logo{
