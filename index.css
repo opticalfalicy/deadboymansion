@@ -1,13 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
-.columns{
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body{
+   
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    
+}
+
+#bg{
+    background: url("deadboybg.jpg");
+    height: 120%;
+    /*background-position: center;*/
+    background-repeat: no-repeat;   
+    background-size: cover;
+    top: 0;
+
+    
+}
+
+
+/*Head*/
+
+.head-div{
+
+    /*text-align: center;
+    vertical-align: middle;
+    display: table;*/
+    padding-left: 55%;
+
+}
+.head{
     text-align: center;
-    padding-top: 50px;
-    padding-left: 160px;
-    opacity: .85;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 215%;
+    border-style: solid;
+    border-spacing: 5px;
+    color: #00802b;
+    opacity: .7;
+    width: 32%;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+/* Embeds */
+
+
+.embeds{
+    text-align: center;
+    width: 50%;
+    opacity: .8;
+
 
 }
 
 #bc{
+    width: 38%;
+    zoom: 240%;
+    padding-left: 62%;
+    padding-bottom: 15px;
+}
+
+
+#sc{
+    width: 50%;
+    zoom: 225%;
+    padding-left: 100%;
+    padding-bottom: 15px;
+}
+
+#yt{
+    width: 60%;
+    zoom: 200%;
+    padding-left: 70%;
+
+}
+
+
+/*#bc{
     background-image: url("deadfoam2.png");
     padding: 25px 15px;
     margin-right: 50px;
@@ -27,9 +103,9 @@
     padding: 50px 0px;
     margin-top: 50px;
     margin-left: 40px;
-}
+} */
 
-.navbar{
+/*.navbar{
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 30px;
     text-decoration-color: #00802b;
@@ -55,12 +131,252 @@
 
 body, html{
     height: 97.8%;
+}*/
+
+@media screen and (min-width: 770px) and (max-width: 1024px){
+    
+        #bg{
+            height: 100%;
+        }
+    
+        .head-div{
+            padding-left: 48%;
+        }
+        .head{
+            font-size: 279%;
+            width: 57%;
+            opacity: 1;
+            color: #0ead43;
+        }
+    
+        #bc{
+            width: 75%;
+            zoom: 256%;
+            padding-left: 55%;
+            padding-bottom: 4px;
+        }
+    
+        #sc{
+            width: 82%;
+            zoom: 267%;
+            padding-left: 100%;
+            padding-bottom: 4px;
+        }
+        
+        #yt{
+            width: 132%;
+            zoom: 254%;
+            padding-left: 51%;
+    
+        }
+    }
+
+@media screen and (min-width: 420px) and (max-width: 768px){
+
+    #bg{
+        height: 100%;
+    }
+
+    .head-div{
+        padding-left: 48%;
+    }
+    .head{
+        width: 57%;
+        opacity: 1;
+        color: #0ead43;
+    }
+
+    #bc{
+        width: 70%;
+        zoom: 179%;
+        padding-left: 55%;
+        padding-bottom: 4px;
+    }
+
+    #sc{
+        width: 77%;
+        zoom: 200%;
+        padding-left: 100%;
+        padding-bottom: 4px;
+    }
+    
+    #yt{
+        width: 119%;
+        zoom: 201%;
+        padding-left: 58%;
+
+    }
 }
 
-#bg{
-    background: url("deadboybg.jpg");
-    height: 110%;
-    background-position: center;
-    background-repeat: no-repeat;   
-    background-size: cover;
+@media screen and (min-width: 413px) and (max-width: 414px){
+    #bg{
+        height: 120%;
+    }
+
+    .head-div{
+        padding-left: 25%;
+    }
+
+    .head{
+        width: 65%;
+    }
+
+    .embeds{
+        opacity: .9;
+    }
+
+    #bc{
+        width: 97%;
+        zoom: 133%;
+        padding-left: 53%;
+        padding-bottom: 4px;
+    }
+
+    #sc{
+        width: 25%;
+        zoom: 102%;
+        padding-left: 42%;
+        padding-bottom: 2px;
+    }
+
+    #yt{
+        width: 139%;
+        height: 86%;
+        zoom: 166%;
+        padding-left: 3%;
+    }
+    iframe{
+        width: 244px;
+        height: 195px;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 412px){
+    #bg{
+        height: 120%;
+    }
+
+    .head-div{
+        padding-left: 25%;
+    }
+
+    .head{
+        width: 65%;
+    }
+
+    .embeds{
+        opacity: .9;
+    }
+
+    #bc{
+        width: 95%;
+        zoom: 131%;
+        padding-left: 53%;
+        padding-bottom: 4px;
+    }
+
+    #sc{
+        width: 25%;
+        zoom: 102%;
+        padding-left: 40%;
+        padding-bottom: 2px;
+    }
+
+    #yt{
+        width: 139%;
+        height: 86%;
+        zoom: 163%;
+        padding-left: 4%;
+    }
+    iframe{
+        width: 244px;
+        height: 195px;
+    }
+}
+
+@media screen and (min-width: 365px) and (max-width: 375px){
+    #bg{
+        height: 125%;
+    }
+
+    .head-div{
+        padding-left: 25%;
+    }
+
+    .head{
+        width: 65%;
+    }
+
+    .embeds{
+        opacity: .9;
+    }
+
+    #bc{
+        width: 106%;
+        zoom: 127%;
+        padding-left: 48%;
+        padding-bottom: 4px;
+    }
+
+    #sc{
+        width: 25%;
+        zoom: 102%;
+        padding-left: 37%;
+        padding-bottom: 15px;
+    }
+
+    #yt{
+        width: 136%;
+        height: 86%;
+        zoom: 151%;
+        padding-left: 2%;
+    }
+    iframe{
+        width: 244px;
+        height: 195px;
+    }
+}
+
+
+@media screen and (max-width: 360px){
+    #bg{
+        height: 140%;
+    }
+
+    .head-div{
+        padding-left: 25%;
+    }
+
+    .head{
+        width: 65%;
+    }
+
+    .embeds{
+        opacity: .9;
+    }
+
+    #bc{
+        width: 106%;
+        zoom: 127%;
+        padding-left: 48%;
+        padding-bottom: 4px;
+    }
+
+    #sc{
+        width: 25%;
+        zoom: 102%;
+        padding-left: 33%;
+        padding-bottom: 15px;
+    }
+
+    #yt{
+        width: 136%;
+        height: 86%;
+        zoom: 145%;
+        padding-left: 2%;
+    }
+    iframe{
+        width: 244px;
+        height: 195px;
+    }
 }
