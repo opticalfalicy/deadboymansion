@@ -1,66 +1,83 @@
-
-.columns{
-    text-align: center;
-    padding-top: 50px;
-    padding-left: 160px;
-    opacity: .85;
-
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-#bc{
-    background-image: url("deadfoam2.png");
-    padding: 25px 15px;
-    margin-right: 50px;
+body{
+    background: black;
 }
 
-#sc{
-    background-image: url("http://www.cafeaulait.org/books/jnp3/corrections/13-1.gif");
-    padding-right: 30px;
-    padding-bottom: 40px;
-    margin: 0px 50px;
-}
 
-#yt{
-    background: url("deadecto.gif");
-    background-size: 900px 390px;
-    background-repeat: no-repeat;
-    padding: 50px 0px;
-    margin-top: 50px;
-    margin-left: 40px;
-}
-
-.navbar{
+.dboy__title{
+    display: flex;
+    justify-content: center;
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 30px;
     text-decoration-color: #00802b;
     font-weight: 600%;
-    padding-left: 915px;
     opacity: 1;
-}
-
-.nav-link{
     color: #00802b;
-    text-decoration-color: #00802b;
-    border-color: #0246185d;
-    border-style: solid;
+    padding-top: 40px;
+
+
 }
 
-#contact{
-    color: #0246185d;
+.anim__dots{
+    color: white;
+    font-size: 900%;
+    background: white;
+    /* animation: dotanim 5s 0s infinte normal; */
+    -webkit-animation:  5s linear 0 infinite normal none;
+    -moz-animation:  5s linear 0 infinite normal none;
+    -ms-animation:  5s linear 0 infinite normal none;
+    -o-animation:  5s linear 0 infinite normal none;
+    animation:  5s linear 0 infinite normal none;
+    
 }
-
-#logo{
-    opacity: 1;
-}
-
-body, html{
-    height: 97.8%;
-}
-
-#bg{
-    background: url("deadboybg.jpg");
-    height: 110%;
-    background-position: center;
-    background-repeat: no-repeat;   
-    background-size: cover;
+@keyframes dotanim{
+    from{
+        background: white;
+    }
+    to{
+        background: green;
+    }
 }
