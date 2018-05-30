@@ -128,7 +128,7 @@ html {
   max-width: 100%;
   background: black;
 }
-#bg {
+.bg_def {
   background-image: url('../img/deadboismallback.gif');
   /* background-size: cover;
     height: 100%;
@@ -144,8 +144,7 @@ html {
   /* object-fit: cover; */
   padding-top: 250px;
 }
-#obg {
-  background-image: url("home/swedishgoodbye/Code/Websites/deadboymansion.github.io/deadboismallorangeback.gif");
+.bg_sc {
   height: 100%;
   max-height: 76%;
   width: 100%;
