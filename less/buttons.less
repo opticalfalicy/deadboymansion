@@ -1,5 +1,17 @@
 // Button Styles
 
+.keyframes(@name; @arguments) {
+	@-moz-keyframes @name { @arguments(); }
+	@-webkit-keyframes @name { @arguments(); }
+	@keyframes @name { @arguments(); }
+}
+
+.animation(@arguments) {
+	-webkit-animation: @arguments;
+	-moz-animation: @arguments;
+	animation: @arguments;
+}
+
 .music__buttons{
     display: flex;
     justify-content: center;
@@ -21,6 +33,8 @@
         opacity: 70;
     }
 
+
+
     .sc__button{
         /* background: orange; */
         
@@ -34,3 +48,22 @@
         text-align: center;
         font-size: 150%;
     } // music__buttons
+
+    .sc__button_disp{
+
+        .keyframes(sc-disp; {
+            0% {opacity: 100;}
+            100% {opacity: 0;}
+        });
+        .animation(sc-disp 5s linear forwards);
+    }
+
+    .bc__button_disp{
+
+        .keyframes(bc-disp; {
+            0% {opacity: 100;}
+            100% {opacity: 0;}
+        });
+
+        .animation(bc-disp 5s linear forwards);
+    }

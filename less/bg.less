@@ -1,6 +1,25 @@
 // BG (Background) Styles
 
+.keyframes(@name; @arguments) {
+	@-moz-keyframes @name { @arguments(); }
+	@-webkit-keyframes @name { @arguments(); }
+	@keyframes @name { @arguments(); }
+}
+
+.animation(@arguments) {
+	-webkit-animation: @arguments;
+	-moz-animation: @arguments;
+	animation: @arguments;
+}
+
 .bg_def{
+
+
+    // .keyframes(bg-backdef; {
+        
+    //     100% {background-image: url('../img/deadboismallback.gif')}
+    //     });
+    
 
     background-image: url('../img/deadboismallback.gif');
     /* background-size: cover;
@@ -15,15 +34,56 @@
     background-repeat: round;
     /* background-size: contain; */
     /* object-fit: cover; */
-    padding-top: 250px;
+    padding-top: 215px;
+    // @scAnim;
+            // .animation(bg-backdef 5s linear forwards);
+
 }
+
 
 .bg_sc{
 
     // background-image: url('../img/deadboismallorangeback.gif');
+    .keyframes(bg-sc; {
+        100% {background-image: url('../img/deadboismallorangeback.gif')}
+    });
     height: 100%;
-    max-height: 76%;
+    max-height: 78%;
     width: 100%;
     background-repeat: round;
-    padding-top: 250px;
+    padding-top: 215px;
+    .animation(bg-sc 5s linear forwards)
+    // @scAnim;
+
+}
+
+.bg_bc{
+    .keyframes(bg-bc; {
+        100% {background-image: url('../img/cover.jpg')}
+    });
+    height: 100%;
+    max-height: 78.2%;
+    width: 100%;
+    background-repeat: round;
+    padding-top: 215px;
+    .animation(bg-bc 5s linear forwards)
+}
+
+.bg_sc_backdef{
+
+    .keyframes(bg-sc-backdef; {
+        0% {background-image: url('../img/deadboismallorangeback.gif')}
+        100% {background-image: url('../img/deadboismallback.gif')}
+    });
+
+    .animation(bg-sc-backdef 5s linear forwards);
+}
+
+.bg_bc_backdef{
+    .keyframes(bg-bc-backdef; {
+        0% {background-image: url('../img/cover.jpg')}
+        100% {background-image: url('../img/deadboismallback.gif')}
+    });
+
+    .animation(bg-bc-backdef 5s linear forwards);
 }

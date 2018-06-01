@@ -17,19 +17,19 @@
 
     <body>
         <!-- Music -->
-        <div class="container bg_def bg_bc bg_sc"id="bg">
+        <div class="bg_def"id="bg">
 
             <div class="dboy__title">Deadboy Mansion</div>
 
                 <div class="music__buttons">
                     
-                    <div class="bc__button">
+                    <div onclick='bcAnim()' id="bc_b" class="bc__button">
                         BANDCAMP
                     </div>
 
-                    <button class="sc__button">
+                    <div onclick="scAnim()" id="sc_b" class="sc__button">
                         SOUNDCLOUD
-                    </button>
+                    </div>
 
                 </div>
             </div>
@@ -52,8 +52,9 @@
               
             </div>-->
      
-
-
+        
+            <script type='text/javascript' src='./js/bg.js'> </script>
+            <!-- <script type='text/javascript' src='./js/button.js'></script> -->
     </body>
 </html>
 

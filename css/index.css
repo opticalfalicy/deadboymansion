@@ -142,14 +142,193 @@ html {
   background-repeat: round;
   /* background-size: contain; */
   /* object-fit: cover; */
-  padding-top: 250px;
+  padding-top: 215px;
 }
 .bg_sc {
   height: 100%;
-  max-height: 76%;
+  max-height: 78%;
   width: 100%;
   background-repeat: round;
-  padding-top: 250px;
+  padding-top: 215px;
+  -webkit-animation: bg-sc 5s linear forwards;
+  -moz-animation: bg-sc 5s linear forwards;
+  animation: bg-sc 5s linear forwards;
+}
+@-moz-keyframes bg-sc {
+  100% {
+    background-image: url('../img/deadboismallorangeback.gif');
+  }
+}
+@-webkit-keyframes bg-sc {
+  100% {
+    background-image: url('../img/deadboismallorangeback.gif');
+  }
+}
+@keyframes bg-sc {
+  100% {
+    background-image: url('../img/deadboismallorangeback.gif');
+  }
+}
+@-moz-keyframes bg-sc {
+  100% {
+    background-image: url('../img/deadboismallorangeback.gif');
+  }
+}
+@-webkit-keyframes bg-sc {
+  100% {
+    background-image: url('../img/deadboismallorangeback.gif');
+  }
+}
+@keyframes bg-sc {
+  100% {
+    background-image: url('../img/deadboismallorangeback.gif');
+  }
+}
+.bg_bc {
+  height: 100%;
+  max-height: 78.2%;
+  width: 100%;
+  background-repeat: round;
+  padding-top: 215px;
+  -webkit-animation: bg-bc 5s linear forwards;
+  -moz-animation: bg-bc 5s linear forwards;
+  animation: bg-bc 5s linear forwards;
+}
+@-moz-keyframes bg-bc {
+  100% {
+    background-image: url('../img/cover.jpg');
+  }
+}
+@-webkit-keyframes bg-bc {
+  100% {
+    background-image: url('../img/cover.jpg');
+  }
+}
+@keyframes bg-bc {
+  100% {
+    background-image: url('../img/cover.jpg');
+  }
+}
+@-moz-keyframes bg-bc {
+  100% {
+    background-image: url('../img/cover.jpg');
+  }
+}
+@-webkit-keyframes bg-bc {
+  100% {
+    background-image: url('../img/cover.jpg');
+  }
+}
+@keyframes bg-bc {
+  100% {
+    background-image: url('../img/cover.jpg');
+  }
+}
+.bg_sc_backdef {
+  -webkit-animation: bg-sc-backdef 5s linear forwards;
+  -moz-animation: bg-sc-backdef 5s linear forwards;
+  animation: bg-sc-backdef 5s linear forwards;
+}
+@-moz-keyframes bg-sc-backdef {
+  0% {
+    background-image: url('../img/deadboismallorangeback.gif');
+  }
+  100% {
+    background-image: url('../img/deadboismallback.gif');
+  }
+}
+@-webkit-keyframes bg-sc-backdef {
+  0% {
+    background-image: url('../img/deadboismallorangeback.gif');
+  }
+  100% {
+    background-image: url('../img/deadboismallback.gif');
+  }
+}
+@keyframes bg-sc-backdef {
+  0% {
+    background-image: url('../img/deadboismallorangeback.gif');
+  }
+  100% {
+    background-image: url('../img/deadboismallback.gif');
+  }
+}
+@-moz-keyframes bg-sc-backdef {
+  0% {
+    background-image: url('../img/deadboismallorangeback.gif');
+  }
+  100% {
+    background-image: url('../img/deadboismallback.gif');
+  }
+}
+@-webkit-keyframes bg-sc-backdef {
+  0% {
+    background-image: url('../img/deadboismallorangeback.gif');
+  }
+  100% {
+    background-image: url('../img/deadboismallback.gif');
+  }
+}
+@keyframes bg-sc-backdef {
+  0% {
+    background-image: url('../img/deadboismallorangeback.gif');
+  }
+  100% {
+    background-image: url('../img/deadboismallback.gif');
+  }
+}
+.bg_bc_backdef {
+  -webkit-animation: bg-bc-backdef 5s linear forwards;
+  -moz-animation: bg-bc-backdef 5s linear forwards;
+  animation: bg-bc-backdef 5s linear forwards;
+}
+@-moz-keyframes bg-bc-backdef {
+  0% {
+    background-image: url('../img/cover.jpg');
+  }
+  100% {
+    background-image: url('../img/deadboismallback.gif');
+  }
+}
+@-webkit-keyframes bg-bc-backdef {
+  0% {
+    background-image: url('../img/cover.jpg');
+  }
+  100% {
+    background-image: url('../img/deadboismallback.gif');
+  }
+}
+@keyframes bg-bc-backdef {
+  0% {
+    background-image: url('../img/cover.jpg');
+  }
+  100% {
+    background-image: url('../img/deadboismallback.gif');
+  }
+}
+@-moz-keyframes bg-bc-backdef {
+  0% {
+    background-image: url('../img/cover.jpg');
+  }
+  100% {
+    background-image: url('../img/deadboismallback.gif');
+  }
+}
+@-webkit-keyframes bg-bc-backdef {
+  0% {
+    background-image: url('../img/cover.jpg');
+  }
+  100% {
+    background-image: url('../img/deadboismallback.gif');
+  }
+}
+@keyframes bg-bc-backdef {
+  0% {
+    background-image: url('../img/cover.jpg');
+  }
+  100% {
+    background-image: url('../img/deadboismallback.gif');
+  }
 }
 .dboy__title {
   display: flex;
@@ -164,7 +343,7 @@ html {
   opacity: 1;
   color: #ee589e;
   margin-left: 20%;
-  width: 60%;
+  width: 59%;
   /* padding-top: 280px; */
 }
 .music__buttons {
@@ -197,4 +376,110 @@ html {
   padding: 17px;
   text-align: center;
   font-size: 150%;
+}
+.sc__button_disp {
+  -webkit-animation: sc-disp 5s linear forwards;
+  -moz-animation: sc-disp 5s linear forwards;
+  animation: sc-disp 5s linear forwards;
+}
+@-moz-keyframes sc-disp {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes sc-disp {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sc-disp {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes sc-disp {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes sc-disp {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sc-disp {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.bc__button_disp {
+  -webkit-animation: bc-disp 5s linear forwards;
+  -moz-animation: bc-disp 5s linear forwards;
+  animation: bc-disp 5s linear forwards;
+}
+@-moz-keyframes bc-disp {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes bc-disp {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes bc-disp {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes bc-disp {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes bc-disp {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes bc-disp {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
 }

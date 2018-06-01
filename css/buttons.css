@@ -1,0 +1,31 @@
+.music__buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 5%;
+}
+.bc__button {
+  /* background: #19c7f7; */
+  border: double 9px #49c0e0;
+  font-size: 150%;
+  text-align: center;
+  color: #79b2c2;
+  height: 100%;
+  width: 17%;
+  border-radius: 80%;
+  padding: 17px;
+  margin-right: 50px;
+  opacity: 70;
+}
+.sc__button {
+  /* background: orange; */
+  border: double 9px orange;
+  background: none;
+  color: orange;
+  height: 100%;
+  width: 17%;
+  border-radius: 50%;
+  padding: 17px;
+  text-align: center;
+  font-size: 150%;
+}
